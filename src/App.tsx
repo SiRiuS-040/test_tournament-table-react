@@ -10,27 +10,35 @@ import { tablematchdata } from './data/startmatchup'
 function App() {
   console.log('Главное приложение');
 
-  function CheckTeams() {
+  // function CheckTeams() {
 
-    // console.log('проверка на готовность к игре');
+  //   let matchArr = document.querySelectorAll('.tournament__matchup')
+  //   console.log(matchArr);
+
+  //   matchArr.forEach(match => {
+  //     let teamArr = match.querySelectorAll('.tournament__team')
+  //     let matchButton = match.querySelector('.tournament__button-play-match')
+
+  //     // matchButton.classList.add('hidden')
+
+  //     console.log(matchButton);
+  //     // console.log(teamArr);
+
+  //     // console.log(teamArr[0].classList.contains('ready'));
 
 
-    let teamMatchupArr = document.querySelectorAll('.tournament__matchup')
-    teamMatchupArr.forEach(matchUp => {
-      // let buttonMatch = matchUp.querySelector('.tournament__button-play-match')
-      // let teamsArr = matchUp.querySelectorAll('.tournament__team')
-      // console.log(teamsArr);
-
-      // teamsArr.forEach(function (team) {
+  //     if (teamArr[0].classList.contains('ready') === teamArr[1].classList.contains('ready')) {
+  //       // matchButton.classList.remove('hidden')
+  //     } else {
+  //       // matchButton.classList.add('hidden')
+  //     }
 
 
-      // });
+  //   });
 
+  // }
 
-    });
-  }
-
-  CheckTeams()
+  // CheckTeams()
 
 
   return (

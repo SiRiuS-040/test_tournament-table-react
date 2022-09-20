@@ -3,10 +3,12 @@ export interface IStartMatch {
         {
             id: number
             name: string
+            logo: string
         },
         {
             id: number
             name: string
+            logo: string
         },
     ]
     'side': string
